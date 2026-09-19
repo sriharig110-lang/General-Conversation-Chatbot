@@ -50,12 +50,13 @@ This project demonstrates how to build a conversational AI application with Gemi
 ```
 
 ## 🛠️ Tech Stack
-Python
+```Python
 Google Gemini API
 google-genai
 Streamlit
 SQLite
 python-dotenv
+```
 ## 📁 Project Structure
 ```General-Conversation-Chatbot/
 │
