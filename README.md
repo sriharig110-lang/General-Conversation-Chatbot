@@ -57,18 +57,19 @@ Streamlit
 SQLite
 python-dotenv
 ## 📁 Project Structure
-General-Conversation-Chatbot/
+```General-Conversation-Chatbot/
 │
 ├── app.py
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-*Local files*
+Local files
 The following files are intentionally excluded from GitHub:
 api.env
 chat_history.db
 .venv/
 The API key and local database should remain on the developer's machine.
+```
 ## ⚙️ How It Works
 The user enters a message through the Streamlit chat interface.
 The application receives the user input.
@@ -97,7 +98,7 @@ as data science and AI.
 The previous conversation context allows Gemini to understand references such as "its" and "it".
 
 ## 💾 SQLite Storage
-The project uses SQLite to store conversation messages locally.
+```The project uses SQLite to store conversation messages locally.
 The database contains message information such as:
 message ID
 conversation ID
@@ -105,11 +106,13 @@ role
 content
 timestamp
 This provides a foundation for persistent conversation history.
+```
 ## 🔐 Environment Setup
 Create an api.env file in the project root:
 GEMINI_API_KEY=your_api_key_here
 The API key is excluded from GitHub through .gitignore.
 ## 📦 Installation
+```
 Clone the repository:
 git clone https://github.com/sriharig110-lang/General-Conversation-Chatbot.git
 Move into the project directory:
@@ -120,6 +123,7 @@ Activate the environment on Windows:
 .venv\Scripts\activate
 Install the dependencies:
 pip install -r requirements.txt
+```
 ## ▶️ Run the Application
 Start the Streamlit application:
 streamlit run app.py
@@ -127,7 +131,7 @@ The chatbot will open in your browser.
 ## 📸 Application
 The application provides a simple conversational interface where users can interact with Gemini and continue conversations using contextual follow-up questions.
 ## 🧠 Key Learning Outcomes
-This project helped me understand and implement:
+```This project helped me understand and implement:
 LLM API integration
 Gemini SDK usage
 Multi-turn conversations
@@ -139,8 +143,9 @@ Environment variable management
 API error debugging
 Basic LLM application architecture
 Python dependency management
-
+```
 ## 🔮 Future Improvements
+```
 🗂️ Chat history sidebar
 ➕ Multiple conversation management
 🔄 Switching between saved conversations
@@ -152,6 +157,7 @@ Python dependency management
 🌐 Deployment
 🔐 User authentication
 🔧 Gemini function calling and AI tools
+```
 ## 👨‍💻 Author
 Sri Hari
 Aspiring AI/ML Engineer
