@@ -1,0 +1,5 @@
+you need to install these python packages to run this project:-
+
+1.google-genai
+2.python-dotenv
+3.streamlit
